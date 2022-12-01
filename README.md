@@ -50,9 +50,9 @@ Namespaces are one honking great idea -- let's do more of those!
 ```
 
 
-## Bonusový úkol - requests (\*nepovinný)
-Nejdůležitější web pro programátory je [stackoverflow](https://stackoverflow.com/), který má veřejné [API](https://api.stackexchange.com/docs). 
-Je třeba napsat program, jehož výstupem bude seznam otázek s tagem 'Python', za poslední dva dny.
+## Úkol č. 2
+Jeden z nejužitečnějších webů pro programátory je [stackoverflow](https://stackoverflow.com/), který má veřejné [API](https://api.stackexchange.com/docs). 
+Je třeba napsat program, jehož výstupem bude seznam otázek s tagem "Python", za poslední dva dny.
 Tato úloha nevyžaduje token.
 
 ### **Příklad výstupu**
@@ -69,10 +69,43 @@ https://stackoverflow.com/questions/74329731/load-custom-dataset-of-with-multipl
 ...
 ```
 
+## Úkol č. 3
+
+### **Pokyny k vypracování:**
+
+1. Pomocí regulárních výrazů vytvořte přehledný adresář ve formátu CSV. 
+2. Kontaktní údaje pro práci s adresářem najdete v souboru ```phonebook_raw.csv```.
+3. Výstupní soubor pojmenujte dle libosti. 
+4. Vycházejte z předpokladu, že každý člověk má pouze jedno telefonní číslo a jeden e-mail. 
+2. Telefonní čísla uvádějte ve formátu ```+3 (123)-XXX-XX-XX```. 
+3. Duplicitní záznamy je třeba sloučit do jednoho.
+
+
+***Na výstupu by měl vzniknout nový CSV soubor s následující strukturou:***
+
+```
+LASTNAME   FIRSTNAME  SECONDNAME  ORGANIZATION  POSITION                                       PHONE                EMAIL
+Coganj     Nina       Elisabeth   Amazon        Trade and Foreign Direct Investment advisory   +3 (123)-913-04-78   opendata@hotmail.com
+
+Robertson  David      Ashton      Google                                                       +3 (123)-913-00-37 
+
+Moore      Maria      Alison      Google                                                       +3 (123)-913-01-68 
+
+Dunlop     Olena      Helen       Avast         Technical Manager
+
+Briani     Massimo    Marc        TechNet                                                      +3 (123)-983-36-99   massimo.briani@gmail.com
+
+Campbell   Marisa     Anna        TechNet                                                      +3 (123)-748-49-73   1248@hotmail.com
+
+Lewis      Martin     Edward      NowRisk       Designer                                       +3 (123)-913-11-11   Martin.Lewis@gmail.com                                                                                                  Martin.Lewis@gmail.com
+```
+
+
+---
+
 ### **Obecné informace k úkolům:**
 
 1. inicializujte lokální Git repozitář na svém PC,
 2. naklonujte si potřebné soubory z [GitHub](https://github.com/CSAS-TestoveZadani/Testove_zadani),
-3. vytvořte veřejný repozitář na GitHubu a propojte ho s lokálním,
-4. bonusový úkol není povinný :)
-5. odkaz na GitHub s vypracovaným zadáním pošlete na email: ***EBannikova@csas.cz*** do středy ***09. 11. 2022***.
+3. vytvořte veřejný repozitář na GitHubu a propojte ho s lokálním, 
+4. odkaz na GitHub s vypracovaným zadáním pošlete na email: ***EBannikova@csas.cz*** do středy ***07. 12. 2022***.
