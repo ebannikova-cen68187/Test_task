@@ -22,8 +22,9 @@ Je potřeba je spojit do jednoho souboru s názvem merget_files.txt dle následu
 ```
 3.txt
 3
+The Zen of Python
 Beautiful is better than ugly.
-Explicit is better than implicit.
+Explicit is better than implicity.
 
 1.txt
 6
