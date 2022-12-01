@@ -1,4 +1,4 @@
-# ****Testové zadání - práce se soubory v Pythonu****
+# ****Testové zadání na pozici Service owner v České spořitelně****
 
 
 ## Úkol č. 1
@@ -74,7 +74,7 @@ https://stackoverflow.com/questions/74329731/load-custom-dataset-of-with-multipl
 
 ### **Pokyny k vypracování:**
 
-1. Pomocí regulárních výrazů vytvořte přehledný adresář ve formátu CSV. 
+1. Pomocí regulárních výrazů a Pythonu vytvořte přehledný adresář ve formátu CSV. 
 2. Kontaktní údaje pro práci s adresářem najdete v souboru ```phonebook_raw.csv```.
 3. Výstupní soubor pojmenujte dle libosti. 
 4. Vycházejte z předpokladu, že každý člověk má pouze jedno telefonní číslo a jeden e-mail. 
